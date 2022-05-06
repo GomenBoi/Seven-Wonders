@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <html>
+      <head>
+          <meta charset="UTF-8">
+          <meta name="description" content="nagivation Page">
+          <meta name="author" content="GomenBoi">
+          <meta name="date" content="creationDate: 25/03/2021">
+          <title>index</title>
+          <link rel="stylesheet" href="StyleSheets/stylesheet.css">
+          <link rel="icon" href="images/golddroger.jpg">
+          <body>
+            <header class="borderStyle">
+              <h1>The Seven Wonders of the World</h1> 
+            </header>
+            <nav class="borderStyle">
+              <h3>Welcome to the Seven Wonders of the World! Here are informative articles that describe the luxurious attractions that lie on this Earth, click the hyperlinks to nagivate to your chosen destination!</h3>
+            </nav>
+            <section>
+              <ul id="hyperlinkList">
+                <li>
+                  <a href="hyperlinks/giza.html">The Great Pyramid of Giza</a>
+                  <img src="images/gizaBg.jpg" height="40px;" width="40px;" alt="">
+                </li>
+                <li>
+                  <a href="hyperlinks/petra.html">Petra</a>
+                  <img src="images/petra.jpg" height="40px;" width="40px;" alt="">
+                </li>
+                <li>
+                  <a href="hyperlinks/wallofchina.html">The Great Wall of China</a>
+                  <img src="images/china.jpg" height="40px;" width="40px;" alt="">
+                </li>
+                <li>
+                  <a href="hyperlinks/itza.html">Chichén Itzá</a>
+                  <img src="images/chichen.jpg" height="40px;" width="40px;" alt="">
+                </li>
+                <li>
+                  <a href="hyperlinks/machu.html">Machu Picchu</a>
+                  <img src="images/machu.jpg" height="40px;" width="40px;" alt="">
+                </li>
+                <li>
+                  <a href="hyperlinks/colosseum.html">The Colosseum</a>
+                  <img src="images/colo.jpg" height="40px;" width="40px;" alt="">
+                </li>
+              </ul>
+            </section>
+            
+            <form style="color:aqua;text-shadow:2px 2px red;">
+              Enter your message to output:
+              <br>
+              <input type="text" name="value" id="inputMessage">
+              <button class="margin" type="button" onclick="outputMessage()">Submit</button>
+            </form>
+
+            <button class="margin" type="button" onclick="multiplyFunction()">Multiply Function By 10</button>
+            <button class="margin" type="button" onclick="calculateDays()">Days in a Month</button>
+            <button class="margin" type="button" onclick="displayName10Times()">Display Name 10 Times</button>
+            <button class="margin" type="button" onclick="display10Table()">Display 10 Times Table</button>
+
+
+            <script src="scripts/main.js"></script>
+          </body>
+      </head>
+  </html>
