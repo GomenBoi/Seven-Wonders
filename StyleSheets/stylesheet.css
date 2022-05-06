@@ -1,0 +1,90 @@
+html {
+    height : 100%;
+}
+* {
+    font-family: 'Trebuchet MS';
+}
+body {
+    background-image :     linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-position: center;
+    background-repeat : no-repeat;
+}
+.borderStyle {
+    border-style: solid;
+    border-top-color: orange;
+    border-left-color: rgb(240, 138, 78);
+    border-right-color: rgb(240, 138, 78);
+    border-bottom-color: rgb(236, 90, 54);
+}
+header {
+    text-align : center;
+    font-size : 30px;
+    color : rgb(238, 98, 105);
+    text-shadow : 2px 2px 2px rgb(243, 243, 243);
+}
+nav {
+    margin-top : 10px;
+    color : rgb(243, 120, 116);
+    background: rgba(238, 145, 5, 0.3);
+}
+#hyperlinkList a{
+    text-decoration: none;
+    color : orange;
+    font-family : 'Trebuchet MS';
+    font-size : 20px;
+    text-align : center;
+}
+#hyperlinkList a:hover {
+    color : rgb(255, 115, 0)
+}
+#homeButton {
+    float : left;
+    height : 50px;
+    width : 50px;
+}
+section.subHeading {
+    background-image : linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    );
+    margin-top : 10px;
+    border : 5px inset orangered;
+    text-align : center;
+    padding : 5px;
+    width : 250px;
+    margin : 10px;
+    float : left;
+}
+section.subHeading h3 {
+    color : rgb(238, 119, 98);
+    text-shadow : 2px 2px 2px rgb(243, 243, 243);
+}
+section.subHeading p {
+    font-size : 20px;
+    color : white;
+}
+div.formSubmission {
+    position : absolute;
+    border : 5px inset orangered;
+    width : 300px;
+    height : 100px;
+    margin-top : 500px;
+    text-align : left;
+}
+div.formSubmission h3 {
+    color : rgb(238, 119, 98);
+    text-shadow: 2px 2px 2px rgb(243, 243, 243);
+    margin-left : 10px;
+}
+div.formSubmission p {
+    color : white;
+}
+.margin {
+    margin-top : 10px;
+}
